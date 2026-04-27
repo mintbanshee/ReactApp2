@@ -43,7 +43,7 @@ export default function HomePage() {
             <p className="lead">
               Front-end developer building digital homes through code and design.
             </p>
-            <Link href="/projects" className="btn btn-outline-light btn-edgar rounded-pill px-4">
+            <Link href="/portfolio" className="btn btn-outline-light btn-edgar rounded-pill px-4">
               View My Work
             </Link>
           </div>
