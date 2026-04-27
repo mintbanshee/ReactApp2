@@ -7,6 +7,8 @@ import Link from "next/link";
         <nav className="navbar navbar-expand-md d-flex flex-column h-100 p-0">
       
         {/* *~*~*~*~* LOGO *~*~*~*~* */}  
+        {/* my MintBanshee logo I created in illustrator */}
+        {/* click to return to home page */}
           <div className="container-fluid d-flex justify-content-between align-items-center p-3">         
             <Link href="/" className="navbar-brand">
               <img 
@@ -20,6 +22,7 @@ import Link from "next/link";
             <div className="d-flex align-items-center gap-2 gap-md-3 ms-auto">
         
             {/* *~*~*~*~* SOCIAL ICONS *~*~*~*~* */}
+            {/* linkedin, github, and email are my main contact methods */}
               <div className="headerSocials d-flex flex-row flex-md-column gap-2">
                 <a href="https://www.linkedin.com/in/mintbanshee" target="_blank" rel="noopener noreferrer">
                   <img src="/images/socials/linkedin.png" 
@@ -39,7 +42,8 @@ import Link from "next/link";
               </div>
               
 
-            {/* *~*~*~*~* HAMBURGER MENU *~*~*~*~* */}              
+            {/* *~*~*~*~* HAMBURGER MENU *~*~*~*~* */}        
+            {/* when the screen size is small switch from nav bar to hamburger menu */}      
               <button
                 className="hamburger navbar-toggler"
                 type="button"
@@ -53,6 +57,8 @@ import Link from "next/link";
           </div>
 
           {/* *~*~*~*~* NAV BAR *~*~*~*~* */}
+          {/* nav bar at bottom of header banner with working navigation */}
+          {/* disappears when screen size is small */}
             <div className="collapse navbar-collapse w-100 mt-auto" id="mainNav">
               <div className="glassNav w-100 d-flex justify-content-center py-2">
                 <ul className="navbar-nav gap-4">

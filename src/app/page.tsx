@@ -142,7 +142,7 @@ export default function HomePage() {
               className="logicPinBottomL img-fluid"
             />
         {/* *~*~*~*~* PHILOSOPHY *~*~*~*~* */}            
-            <h2 className="cookie-regular mb-3">Where lore meets logic</h2>
+            <h2 className="cookie-regular mb-3">Design Philosophy</h2>
               <p className="buildLogicBlurb">Usability builds the house.</p>
               <p className="buildLogicBlurb">Emotional design makes it a home.</p>
               <p className="buildLogicBlurb">Logic keeps it safe.</p>

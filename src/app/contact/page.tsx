@@ -15,7 +15,6 @@ export default function ContactPage() {
           <div id="contactCard" className="py-3 mx-auto m-5">
             
         {/* *~*~*~*~* THUMB TACKS *~*~*~*~* */}
-
             <div className="introPins col-12 col-md-5">
               <img
                 src="/images/icons/pin.png"
@@ -46,6 +45,7 @@ export default function ContactPage() {
               <p className="lead mt-3">I am seeking employment opportunities for entry-level web developer positions starting in August (when my internship and diploma program end)</p>
             </div> 
 
+            {/* main contact links */}
             <div className="contactLinks d-flex flex-row flex-wrap justify-content-center align-items-center">
               <a href="https://www.linkedin.com/in/mintbanshee" target="_blank" rel="noopener noreferrer">
                 <img 
@@ -70,6 +70,7 @@ export default function ContactPage() {
               </a>
             </div>
 
+            {/* download my resume to save recruiters' time */}
             <div className="d-flex justify-content-center align-items-center mt-4">
               <a href="/Alexandria-McQueen-Resume.pdf"
                 download

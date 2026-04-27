@@ -241,7 +241,6 @@ p {
 /*===================================
   ~*~*~*~*~*~ ABOUT PAGE *~*~*~*~*~*~
 ====================================*/
-
 .aboutWall {
   background-image: url("/images/bg/GreyishWall.jpg");
   background-size: cover;
@@ -300,6 +299,7 @@ p {
   width: 30px;
 }
 
+
 /*===================================
 *~*~*~*~*~ PORTFOLIO PAGE *~*~*~*~*~*
 ====================================*/
@@ -340,6 +340,7 @@ p {
   width: 100%;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
 }
+
 
 /*===================================
 ~*~*~*~*~*~ CONTACT PAGE *~*~*~*~*~*~
@@ -396,6 +397,7 @@ p {
 #quoteSection {
   padding: 3rem 1rem;
 }
+
 
 /*===================================
  ~*~*~*~*~*~ THUMB TACKS *~*~*~*~*~*~
@@ -457,6 +459,8 @@ p {
   left: 93%;
   transform: translate(-50%, -50%) rotate(-80deg);
 }
+
+
 
 /*===================================
  *~*~*~*~*~ MEDIA QUERIES *~*~*~*~*~*
@@ -583,6 +587,7 @@ p {
   }
 }
 
+/* !~!~!~ 530PX *~!~!~! */
 @media (max-width: 530px) {
   .toolIcon {
     width: 40px !important;
@@ -600,7 +605,7 @@ p {
     margin-top: -1.5rem;
   }
   .toolIcon {
-    width: 30px !important;
+    width: 20px !important;
   }
   .bioPic {
     width: 70%;
@@ -612,7 +617,6 @@ p {
   }
   .contactLinks img {
     width: 60px;
-
   }  
   .contactHeader p {
     margin: 1rem;
